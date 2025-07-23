@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="MainMenuForm.cs" />
+    <Compile Include="SnakeGameForm.cs" />
+    <Compile Include="CarRacingForm.cs" />
+    <Compile Include="GuessNumberForm.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+</Project>
