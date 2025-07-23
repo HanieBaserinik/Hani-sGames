@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Collections; // The Hashtable is in the collections class
 using System.Windows.Forms; // The keys are in the Forms Class
 
-namespace SnakeGame
+namespace GameCollection
 {
     class Input
     {
