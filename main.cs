@@ -7,7 +7,7 @@
 
 using System;
 
-namespace OOP_GameSystem
+namespace GameCollection
 {
     // ***** Abstraction + Inheritance + Polymorphism
     abstract class Game //»»»Separation of Concerns	کلاس بازی از کلاس اجرای اصلی جداست
