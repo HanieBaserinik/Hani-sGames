@@ -3,16 +3,15 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net472</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="MainMenuForm.cs" />
-    <Compile Include="SnakeGame\Circle.cs" />
-    <Compile Include="SnakeGame\Input.cs" />
-    <Compile Include="SnakeGame\Settings.cs" />
-    <Compile Include="SnakeGame\SnakeGameForm.cs" />
-    <Compile Include="CarRacing\CarRacingForm.cs" />
-    <Compile Include="GuessNumber\GuessNumberForm.cs" />
+    <Compile Include="SnakeGameForm.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="Input.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="CarRacingForm.cs" />
+    <Compile Include="GuessNumberForm.cs" />
   </ItemGroup>
 </Project>
