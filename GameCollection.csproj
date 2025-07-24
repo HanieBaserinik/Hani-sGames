@@ -1,14 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net472</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="MainMenuForm.cs" />
-    <Compile Include="SnakeGameForm.cs" />
-    <Compile Include="CarRacingForm.cs" />
-    <Compile Include="GuessNumberForm.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="MainMenuForm.cs" />
+    <Compile Include="SnakeGame\Circle.cs" />
+    <Compile Include="SnakeGame\Input.cs" />
+    <Compile Include="SnakeGame\Settings.cs" />
+    <Compile Include="SnakeGame\SnakeGameForm.cs" />
+    <Compile Include="CarRacing\CarRacingForm.cs" />
+    <Compile Include="GuessNumber\GuessNumberForm.cs" />
   </ItemGroup>
 </Project>
