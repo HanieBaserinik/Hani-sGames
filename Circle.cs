@@ -1,21 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace GameCollection
 {
-    class Circle
+    public class Circle
     {
-        public int X { get; set; } // this is a public int class called X
-        public int Y { get; set; } // this is a public int class called Y
-
+        public int X { get; set; }
+        public int Y { get; set; }
+        
         public Circle()
         {
-            // this function is resetting the X and Y to 0
             X = 0;
             Y = 0;
+        }
+        
+        public Circle(int x, int y)
+        {
+            X = x;
+            Y = y;
         }
     }
 }
